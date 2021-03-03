@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{3E33788D-DCF5-422E-9905-8AEEDFFB556D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MailController.cs">
+    <Files>
+      <File FileName="Dtos/JwtUserDto.cs" Line="6" Column="34" />
+      <File FileName="Controllers/MailController.cs" Line="143" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Files.Management" expanded="True">
+            <Node name="Files.Management" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MailController.cs" selected="True" />
+              </Node>
+              <Node name="Domain" expanded="True" />
+              <Node name="Dtos" expanded="True">
+                <Node name="Output" expanded="True" />
+              </Node>
+              <Node name="Middlewares" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Files.Management PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lucas-simas/Documents/Git/Files.Management/Backend/Middlewares/ExceptionHandlingMiddleware.cs" relfile="Middlewares/ExceptionHandlingMiddleware.cs" line="49" column="1" />
+      <Breakpoint file="/Users/lucas-simas/Documents/Git/Files.Management/Backend/Controllers/AccountController.cs" relfile="Controllers/AccountController.cs" line="36" column="1" />
+      <Breakpoint file="/Users/lucas-simas/Documents/Git/Files.Management/Backend/Controllers/TemplateController.cs" relfile="Controllers/TemplateController.cs" line="158" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

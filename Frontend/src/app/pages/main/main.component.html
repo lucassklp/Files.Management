@@ -1,0 +1,32 @@
+<mat-toolbar color="primary">
+  <button (click)="drawer.toggle()" mat-icon-button aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a class="nav-title" routerLink="/main/home">Files Management</a>
+  <span class="spacer"></span>
+  <button [routerLink]="'/main/home'" mat-icon-button aria-label="Home">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button (click)="authenticationService.logout()" mat-icon-button aria-label="Logout">
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-drawer-container class="main-container" autosize>
+  <mat-drawer #drawer class="main-sidenav" opened="true" mode="side">
+
+    <mat-selection-list [multiple]="false">
+      <mat-list-option routerLink="/main/home">
+        <mat-icon mat-list-icon>home</mat-icon>
+        Home
+      </mat-list-option>
+      <mat-list-option (click)="authenticationService.logout()">
+        <mat-icon mat-list-icon>logout</mat-icon>
+        Logout
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-drawer>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

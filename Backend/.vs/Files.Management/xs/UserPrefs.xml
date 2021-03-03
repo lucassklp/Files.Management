@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{3E33788D-DCF5-422E-9905-8AEEDFFB556D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName="Controllers/FileController.cs" Line="101" Column="19" />
+      <File FileName="Components/EncyptionProvider.cs" Line="9" Column="37" />
+      <File FileName="Controllers/ImageController.cs" Line="96" Column="36" />
+      <File FileName="Dtos/FileDto.cs" Line="6" Column="1" />
+      <File FileName=".gitignore" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Files.Management" expanded="True">
+            <Node name="Files.Management" expanded="True">
+              <Node name=".gitignore" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Files.Management PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lucas-simas/Documents/Git/Files.Management/Backend/Components/ImageComponent.cs" relfile="Components/ImageComponent.cs" line="47" column="1" />
+      <Breakpoint file="/Users/lucas-simas/Documents/Git/Files.Management/Backend/Controllers/ImageController.cs" relfile="Controllers/ImageController.cs" line="101" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
